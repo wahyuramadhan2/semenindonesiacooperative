@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Semen Indonesia Cooperative (SIC) — lebih dari sekadar koperasi.">
+  <title>Semen Indonesia Cooperative | SIC</title>
+
+  <!-- Font dari Google Fonts. Jika offline, browser memakai font sistem. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS dipisah agar mudah dicari dan diedit. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER: logo teks sementara dan menu utama -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#beranda" aria-label="SIC, kembali ke beranda">
+        <img
+          class="brand-logo"
+          src="images/logo-sic.jpg"
+          alt="Semen Indonesia Cooperative"
+        />
+        <span class="brand-name"><small>SEMEN INDONESIA</small><strong>COOPERATIVE</strong></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-expanded="false" aria-controls="mainNav" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <a href="#profil">Profil</a>
+        <a href="#sejarah">Sejarah</a>
+        <a href="#video-profil">Video Profil</a>
+        <a href="#bisnis">Unit Bisnis</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <a class="button button-red header-cta" href="#kontak">Hubungi SIC <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO: ubah judul, deskripsi, dan tombol di bagian ini -->
+    <section class="hero" id="beranda">
+      <div class="hero-image" role="img" aria-label="Aktivitas industri dan distribusi bahan bangunan"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light">Semen Indonesia Cooperative</p>        
+          
+        <h1 class="hero-title">
+          <span id="hero-white" class="hero-line hero-white"></span>
+          <span id="hero-pink" class="hero-line hero-pink"></span>
+        </h1>
+
+        <p class="hero-copy">
+          Mendukung kebutuhan anggota dan mitra melalui beragam layanan usaha yang terintegrasi.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#bisnis">Jelajahi unit bisnis <span aria-hidden="true">→</span></a>
+          <a class="text-link text-link-light" href="#profil">Kenali SIC <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span></span> Tumbuh bersama, melayani lebih luas</div>
+    </section>
+
+    
+<!-- PROFIL -->
+<section class="section section-profile" id="profil">
+  <div class="container profile-layout">
+
+    <div class="section-heading">
+      <p class="eyebrow">Tentang kami</p>
+      <h2>Mitra yang tumbuh bersama kebutuhan industri.</h2>
+    </div>
+
+    <div class="profile-copy">
+      <p>
+        Semen Indonesia Cooperative (SIC), sebelumnya dikenal sebagai
+        Koperasi Konsumen Warga Semen Gresik (KWSG), merupakan koperasi
+        karyawan di lingkungan PT Semen Indonesia (Persero) Tbk dan
+        lembaga afiliasi yang mendukung kebutuhan anggota serta
+        pemangku kepentingan eksternal.
+      </p>
+
+      <p>
+        Seiring transformasi nama dan identitas pada 27 Maret 2024,
+        SIC terus mengembangkan layanan usaha untuk memberikan nilai
+        tambah bagi anggota, pelanggan, dan mitra.
+      </p>
+
+      <a class="inline-link"
+         href="https://sic.co.id/profile"
+         target="_blank"
+         rel="noopener noreferrer">
+        Baca profil di situs resmi <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- SEJARAH: timeline horizontal -->
+<section class="section section-history" id="sejarah">
+  <div class="container history-layout">
+
+    <div>
+      <p class="eyebrow">Perjalanan SIC</p>
+      <h2>Berakar dari pengalaman,<br>bergerak menuju masa depan.</h2>
+      <a class="inline-link"
+         href="https://sic.co.id/profile"
+         target="_blank"
+         rel="noopener noreferrer">
+        Lihat profil dan sejarah resmi ↗
+      </a>
+    </div>
+
+    <!-- KARTU SEJARAH -->
+    <div class="timeline" id="sicTimeline">
+
+      <article class="timeline-item">
+        <span>1963</span>
+        <div>
+          <h3>Awal perjalanan</h3>
+          <p>Koperasi berdiri di lingkungan Semen Gresik.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <span>1992</span>
+        <div>
+          <h3>Perdagangan bahan bangunan</h3>
+          <p>Pengembangan lini usaha bahan bangunan.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <span>2010</span>
+        <div>
+          <h3>Pengembangan layanan</h3>
+          <p>Perluasan kegiatan usaha ke bidang event organizer.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item timeline-item-current">
+        <span>2024</span>
+        <div>
+          <h3>Identitas baru</h3>
+          <p>Perubahan nama dan identitas menjadi Semen Indonesia Cooperative.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- TOMBOL PANAH -->
+    <div class="timeline-controls">
+      <button type="button"
+              class="timeline-arrow"
+              id="timelinePrev"
+              aria-label="Sejarah sebelumnya">
+        &#8592;
+      </button>
+
+      <button type="button"
+              class="timeline-arrow"
+              id="timelineNext"
+              aria-label="Sejarah berikutnya">
+        &#8594;
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- VIDEO PROFIL SIC -->
+<section class="section video-profile" id="video-profil">
+  <div class="container">
+
+    <p class="eyebrow">Video profil</p>
+
+    <div class="video-heading">
+      <h2>Spirit SIC 2026:<br>Transform to Thrive.</h2>
+      <p>
+        Mengenal semangat dan perjalanan Semen Indonesia Cooperative
+        dalam mengembangkan layanan usaha dan menciptakan nilai tambah.
+      </p>
+    </div>
+
+    <div class="youtube-frame">
+      <iframe
+        src="https://www.youtube.com/embed/7XQc0lgdTXA"
+        title="Spirit SIC 2026: Transform to Thrive"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+    <!-- UNIT BISNIS: nama mengikuti kategori pada situs resmi; deskripsi dibuat ringkas -->
+    <section class="section section-business" id="bisnis">
+      <div class="container">
+        <div class="business-heading">
+          <div>
+            <p class="eyebrow">Our business</p>
+            <h2>Beragam layanan,<br>terhubung dalam satu ekosistem.</h2>
+          </div>
+          <p class="section-intro">
+            Jelajahi unit bisnis SIC. Pilih salah satu kartu untuk membuka informasi
+            lebih lanjut di website resmi.
+          </p>
+        </div>
+
+        <div class="business-grid">
+          <a class="business-card business-card-featured" href="https://sic.co.id/our-business/building-material-business" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">01 / CORE BUSINESS</span>
+            <span class="business-symbol" aria-hidden="true">▰</span>
+            <span class="business-card-bottom">
+              <strong>Building Material Business</strong>
+              <span>Distribusi semen dan bahan bangunan <b aria-hidden="true">↗</b></span>
+            </span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/mining-business" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">02</span><span class="business-symbol" aria-hidden="true">⌁</span>
+            <span class="business-card-bottom"><strong>Mining Business</strong><span>Informasi unit di situs resmi <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/industrial-business" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">03</span><span class="business-symbol" aria-hidden="true">▦</span>
+            <span class="business-card-bottom"><strong>Industrial Business</strong><span>Perdagangan barang industri <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/bulk-business" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">04</span><span class="business-symbol" aria-hidden="true">▤</span>
+            <span class="business-card-bottom"><strong>Bulk Business</strong><span>Solusi kebutuhan industri skala besar <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/expedition-business" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">05</span><span class="business-symbol" aria-hidden="true">➜</span>
+            <span class="business-card-bottom"><strong>Expedition Business</strong><span>Layanan ekspedisi dan distribusi <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/simpan-pinjam-pembiayaan-syariah" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">06</span><span class="business-symbol" aria-hidden="true">＋</span>
+            <span class="business-card-bottom"><strong>Simpan Pinjam Syariah</strong><span>Layanan pembiayaan anggota <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/gedhong-legen" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">07</span><span class="business-symbol" aria-hidden="true">⌂</span>
+            <span class="business-card-bottom"><strong>Gedhong Legen</strong><span>Informasi layanan di situs resmi <b aria-hidden="true">↗</b></span></span>
+          </a>
+          <a class="business-card" href="https://sic.co.id/our-business/gariscomm" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">08</span><span class="business-symbol" aria-hidden="true">✳</span>
+            <span class="business-card-bottom"><strong>Gariscomm</strong><span>Event organizer <b aria-hidden="true">↗</b></span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- SIC CONTACT FORM: replace the old contact CTA section with this section -->
+<section class="ftco-section sic-contact-template" id="kontak">
+  <div class="cl-container">
+    <div class="cl-row cl-justify-content-center">
+      <div class="cl-col-lg-10">
+        <div class="wrapper img" style="background-image: url('images/truk-sic.png');">
+          <div class="cl-row">
+            <div class="cl-col-md-9 cl-col-lg-7">
+              <div class="contact-wrap cl-w-100 cl-p-md-5 cl-p-4">
+                <p class="sic-contact-eyebrow">HUBUNGI KAMI · SEMEN INDONESIA COOPERATIVE</p>
+                <h3 class="cl-mb-4">Mari berdiskusi.</h3>
+                <p class="sic-contact-intro">Sampaikan pertanyaan, kebutuhan layanan, atau peluang kerja sama kepada tim SIC.</p>
+                <div id="sic-form-message" class="cl-mb-4" role="status" aria-live="polite"></div>
+                <form id="sicContactForm" name="sicContactForm" class="contactForm">
+                  <div class="cl-row">
+                    <div class="cl-col-md-6"><div class="cl-form-group">
+                      <label class="label" for="sic-name">Nama lengkap</label>
+                      <input type="text" class="cl-form-control" name="name" id="sic-name" placeholder="Nama Anda" autocomplete="name" required>
+                    </div></div>
+                    <div class="cl-col-md-6"><div class="cl-form-group">
+                      <label class="label" for="sic-email">Alamat email</label>
+                      <input type="email" class="cl-form-control" name="email" id="sic-email" placeholder="nama@email.com" autocomplete="email" required>
+                    </div></div>
+                    <div class="cl-col-md-12"><div class="cl-form-group">
+                      <label class="label" for="sic-subject">Subjek</label>
+                      <input type="text" class="cl-form-control" name="subject" id="sic-subject" placeholder="Topik pesan" required>
+                    </div></div>
+                    <div class="cl-col-md-12"><div class="cl-form-group">
+                      <label class="label" for="sic-message">Pesan</label>
+                      <textarea name="message" class="cl-form-control" id="sic-message" rows="4" placeholder="Ceritakan kebutuhan Anda..." minlength="5" required></textarea>
+                    </div></div>
+                    <div class="cl-col-md-12"><div class="cl-form-group">
+                      <button type="submit" class="cl-btn cl-btn-primary">Pratinjau pesan <span aria-hidden="true">↗</span></button>
+                    </div></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this stylesheet in the page <head>; adjust path if your folders differ. -->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/sic-contact.js" defer></script>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#beranda">
+        <img
+          class="brand-logo"
+          src="images/logo-sic.jpg"
+          alt="Semen Indonesia Cooperative"
+        />
+        <span class="brand-name"><small>SEMEN INDONESIA</small><strong>COOPERATIVE</strong></span>
+      </a>
+      <div class="footer-contact">
+        <strong>Semen Indonesia Cooperative</strong>
+        <span>Gresik, Jawa Timur, Indonesia</span>
+        <a href="mailto:info@sic.co.id">info@sic.co.id</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear">2026</span> Semen Indonesia Cooperative</span>
+      <a href="https://sic.co.id/" target="_blank" rel="noopener noreferrer">Website resmi SIC ↗</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const whiteLine = document.getElementById("hero-white");
+  const pinkLine = document.getElementById("hero-pink");
+
+  if (!whiteLine || !pinkLine) return;
+
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  const firstText = "Lebih dari sekadar koperasi.";
+  const secondText = "SIC adalah solusi.";
+
+  if (reduceMotion) {
+    whiteLine.textContent = "Lebih dari sekadar";
+    whiteLine.append(document.createElement("br"));
+    whiteLine.append("koperasi.");
+    pinkLine.textContent = secondText;
+    return;
+  }
+
+  let index = 0;
+
+  function typeText(element, text, speed, done) {
+    element.classList.add("is-typing");
+
+    function typeNext() {
+      if (index < text.length) {
+        element.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeNext, speed);
+      } else {
+        element.classList.remove("is-typing");
+        index = 0;
+        if (done) setTimeout(done, 250);
+      }
+    }
+
+    typeNext();
+  }
+
+  typeText(whiteLine, firstText, 75, () => {
+    // Paksa baris putih menjadi dua baris seperti desain awal.
+    whiteLine.textContent = "";
+    whiteLine.append("Lebih dari sekadar", document.createElement("br"));
+    whiteLine.append("koperasi.");
+
+    typeText(pinkLine, secondText, 75);
+  });
+});
+</script>
+</body>
+</html>
